@@ -1,0 +1,121 @@
+body {
+  font-family: "Space Grotesk", "Noto Sans", sans-serif;
+  background-color: #f8fafc; /* Tailwind’s bg-slate-50 */
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+header {
+  border-bottom: 1px solid #e7eff3;
+  z-index: 1000;
+}
+footer {
+  border-top: 1px solid #e7eff3;
+}
+.hero-section {
+  background-image: url("/images/Michelangelo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.hero-content {
+  position: relative;
+  z-index: 10;
+  padding: 3rem 1.5rem;
+}
+.text-primary-dark {
+  color: #0d171b;
+}
+.text-secondary-light {
+  color: #4c809a;
+}
+.team-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.value-card {
+  border: 1px solid #cfdfe7;
+  background-color: #f8fafc;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+.text-muted-custom {
+  color: #4c809a !important;
+}
+.icon-box {
+  background-color: #e7eff3;
+  width: 48px;
+  height: 48px;
+}
+.social-icon {
+  background-color: #e7eff3;
+  border-radius: 50%;
+  padding: 10px;
+}
+.hero-section-solutions {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("https://lh3.googleusercontent.com/aida-public/AB6AXuBQl_9HownVFXMaxnbju6kqTS7Jab_GS9UvaK4Ei_sWVvTCyyX6FSx10sYa5IUkP5XBlgqCSLw3WugZztWkXXbMdBD3GZ0VeAD3qIotUEp9z4NGpW9J98PI3sGLYKPIlhp8AbX3jHfXf4bYUajntuUkw3hsUqzpScgR-KG65a0mI4bTIDndhY187ixboTkH7dDp3haecSfpODiM4v31I4CTzA_NaUJKp_ipyswQZZoDXDjIwBLIwPNYRCGoUiB4C48RotqJP59MD3g");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 480px;
+  border-radius: 0.5rem;
+}
+.card-custom {
+  border: 1px solid #cfdfe7;
+  background-color: #f8fafc;
+  transition: transform 0.2s;
+}
+.card-custom:hover {
+  transform: translateY(-3px);
+}
+.hero-section-technology {
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url("https://lh3.googleusercontent.com/aida-public/AB6AXuAOefNy_oiG7niuqqZHQZ7v8gLMxbNb59-88enpqwDPad502NR9d5wGo2Fjgajh3agsS-3gnru0S4X-b5fSdZJ_BMfm_BAHYFhf5N6PHkFbCpvlHPUdbfIlJOQ3C0shSSnCVCcxWWT8GdAmySop5TPwRQ5VsXxKtR4ZD4KDxaydQ2FwZDYNQOJtLhkRhgACti0XlhT3FUws9XI5fEgDWo9YgivRaoHFVLbd2P7u6ayJl4rl-Y1GmlynQP30Zd_6zjTPHLV6ncQXi6M")
+      center/cover no-repeat;
+  border-radius: 0.75rem;
+  min-height: 480px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 3rem;
+}
+.feature-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.75rem;
+}
+.btn-primary-custom {
+  background-color: #1193d4;
+  border: none;
+}
+.btn-primary-custom:hover {
+  background-color: #0d7cb4;
+}
